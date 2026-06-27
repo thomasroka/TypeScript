@@ -1,10 +1,7 @@
 /*Type Interface
 
 Type Interface is a feature in Typescript that allows the compillers to automatically determine the type  of variables without explicit  specifiying  type, if you declare a variavle without explicit specifying its type Typescript will try to interfer the type based on the values you assign to it.
-
 */
-
-
 
 let tech = "Typescript";
 let favnumber = 360;

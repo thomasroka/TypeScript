@@ -21,4 +21,4 @@ console.log(numberss)
 //Boolean
 let isHard: Boolean = false;
 console.log(isHard);
-export {};
+export {}
