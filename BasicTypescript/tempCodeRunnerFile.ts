@@ -1,3 +1,4 @@
+export {}
 let tech = "Typescript";
 let favnumber = 360;
 let isHard = false;

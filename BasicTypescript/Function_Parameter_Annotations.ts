@@ -16,3 +16,25 @@ const double = (x: number, y: number) => {
     console.log(x * y);
 }
 double(2, 10);
+
+// function object return
+ function printUser():{name:string, age:number,location:string}{
+    return{
+        name:"Shree",
+        age:20,
+        location:"ktm"
+    }
+ }
+ const result = printUser();
+ console.log(result.name);
+ 
+ // with arr return
+  function list():(string|number)[]{
+ return ["thomas",1,2]
+  }
+
+  // acccept objects as params
+  const users=(user:{name:string; age:number})=>{
+    console.log(`user name:${user.name} ${user.age}`)
+  }
+  users({name:"krish", age:20});
