@@ -8,3 +8,8 @@ const matrix: number[][]=[
 const triple_Dimensional: string[][][]=[[["Thomas"]]];
 console.log(matrix);
 console.log(triple_Dimensional);
+
+//Exercise
+// type in typescript is read left to right
+const StudentList:{name:string}[]=[{name:"Tom"},{name:"god"}]
+console.log(StudentList[0]);
